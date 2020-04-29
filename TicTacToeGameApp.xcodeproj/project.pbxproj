@@ -13,6 +13,9 @@
 		21375283245A2E20004BBAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21375281245A2E20004BBAC4 /* Main.storyboard */; };
 		21375285245A2E24004BBAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21375284245A2E24004BBAC4 /* Assets.xcassets */; };
 		21375288245A2E24004BBAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21375286245A2E24004BBAC4 /* LaunchScreen.storyboard */; };
+		21375292245A2ED3004BBAC4 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 2137528F245A2ED3004BBAC4 /* board.png */; };
+		21375293245A2ED3004BBAC4 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 21375290245A2ED3004BBAC4 /* cross.png */; };
+		21375294245A2ED3004BBAC4 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 21375291245A2ED3004BBAC4 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		21375284245A2E24004BBAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21375287245A2E24004BBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21375289245A2E24004BBAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2137528F245A2ED3004BBAC4 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		21375290245A2ED3004BBAC4 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		21375291245A2ED3004BBAC4 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,23 @@
 				2137527B245A2E20004BBAC4 /* AppDelegate.swift */,
 				2137527D245A2E20004BBAC4 /* SceneDelegate.swift */,
 				2137527F245A2E20004BBAC4 /* ViewController.swift */,
+				21375295245A2ED6004BBAC4 /* images */,
 				21375281245A2E20004BBAC4 /* Main.storyboard */,
 				21375284245A2E24004BBAC4 /* Assets.xcassets */,
 				21375286245A2E24004BBAC4 /* LaunchScreen.storyboard */,
 				21375289245A2E24004BBAC4 /* Info.plist */,
 			);
 			path = TicTacToeGameApp;
+			sourceTree = "<group>";
+		};
+		21375295245A2ED6004BBAC4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2137528F245A2ED3004BBAC4 /* board.png */,
+				21375290245A2ED3004BBAC4 /* cross.png */,
+				21375291245A2ED3004BBAC4 /* nought.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21375293245A2ED3004BBAC4 /* cross.png in Resources */,
+				21375292245A2ED3004BBAC4 /* board.png in Resources */,
+				21375294245A2ED3004BBAC4 /* nought.png in Resources */,
 				21375288245A2E24004BBAC4 /* LaunchScreen.storyboard in Resources */,
 				21375285245A2E24004BBAC4 /* Assets.xcassets in Resources */,
 				21375283245A2E20004BBAC4 /* Main.storyboard in Resources */,
