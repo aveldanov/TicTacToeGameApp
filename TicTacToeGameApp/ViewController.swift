@@ -23,13 +23,21 @@ class ViewController: UIViewController {
   
   
   @IBOutlet weak var winnerLabel: UILabel!
-  
+  @IBOutlet weak var playAgainButton: UIButton!
   
   
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    winnerLabel.isHidden = true
+    playAgainButton.isHidden = true
+    
+    winnerLabel.center = CGPoint(x: winnerLabel.center.x
+      , y: winnerLabel.center.y - 500)
+    
+    playAgainButton.center = CGPoint(x: playAgainButton.center.x
+         , y: playAgainButton.center.y + 500)
+  
   }
   
   
@@ -74,26 +82,39 @@ class ViewController: UIViewController {
         
         activeGame = false
         print("We have a winner \(gameState[combination[0]])")
+        
+        winnerLabel.isHidden = false
+        playAgainButton.isHidden = false
+        
+        if gameState[combination[0]] == 1 {
+          
+          winnerLabel.text = "Noughts have won!"
+          
+          }else{
+          
+          winnerLabel.text = "Crosses have won!"
+
+        }
+        
+        UIView.animate(withDuration: 1) {
+          self.winnerLabel.center = CGPoint(x: self.winnerLabel.center.x, y: self.winnerLabel.center.y + 500)
+          
+          self.playAgainButton.center = CGPoint(x: self.playAgainButton.center.x, y: self.playAgainButton.center.y - 500)
+        }
 
       }
       
     }
     
     print(gameState)
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
   }
   
   
   
   
+  @IBAction func playAgainButtonPressed(_ sender: UIButton) {
+  }
   
   
 }

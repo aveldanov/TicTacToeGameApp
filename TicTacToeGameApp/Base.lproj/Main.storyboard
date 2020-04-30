@@ -131,6 +131,9 @@
                                 <rect key="frame" x="139" y="742" width="136" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="playAgainButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c6S-Jw-omM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -163,6 +166,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="playAgainButton" destination="Gsp-n0-tak" id="D9x-mr-50D"/>
                         <outlet property="winnerLabel" destination="BTj-Mr-klY" id="LeS-jN-vWO"/>
                     </connections>
                 </viewController>
