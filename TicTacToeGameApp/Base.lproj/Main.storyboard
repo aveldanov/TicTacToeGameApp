@@ -121,17 +121,31 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WUF-g0-IEW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noughts has won" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTj-Mr-klY">
+                                <rect key="frame" x="94.5" y="157" width="225" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsp-n0-tak">
+                                <rect key="frame" x="139" y="742" width="136" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Play Again"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="BTj-Mr-klY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2d6-Id-heD"/>
                             <constraint firstItem="bFp-ID-67n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Nq-o9-jrY"/>
                             <constraint firstItem="p3g-7z-ivs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6be-ZD-6fS"/>
                             <constraint firstItem="qod-4b-fo5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Ck-tU-Wmg"/>
                             <constraint firstItem="MJr-3S-ip6" firstAttribute="leading" secondItem="bFp-ID-67n" secondAttribute="trailing" constant="60" id="E6m-cr-rDT"/>
                             <constraint firstItem="7gM-qk-g61" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EVo-Ec-2wd"/>
                             <constraint firstItem="rtT-Gc-q3g" firstAttribute="leading" secondItem="lOo-Pk-YTL" secondAttribute="trailing" constant="60" id="GyY-iw-cwi"/>
+                            <constraint firstItem="Gsp-n0-tak" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H4p-e8-ly7"/>
                             <constraint firstItem="bFp-ID-67n" firstAttribute="leading" secondItem="qod-4b-fo5" secondAttribute="trailing" constant="60" id="HMs-L6-NbH"/>
                             <constraint firstItem="7gM-qk-g61" firstAttribute="top" secondItem="bFp-ID-67n" secondAttribute="bottom" constant="60" id="JeZ-qH-an8"/>
+                            <constraint firstItem="BTj-Mr-klY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="LYU-Lz-t93"/>
                             <constraint firstItem="7gM-qk-g61" firstAttribute="leading" secondItem="s8n-be-t9q" secondAttribute="trailing" constant="60" id="NbE-fI-bsP"/>
                             <constraint firstItem="MJr-3S-ip6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PHM-eX-e2v"/>
                             <constraint firstItem="s8n-be-t9q" firstAttribute="top" secondItem="qod-4b-fo5" secondAttribute="bottom" constant="60" id="QDq-tJ-SS6"/>
@@ -140,6 +154,7 @@
                             <constraint firstItem="p3g-7z-ivs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cfA-NG-Tfj"/>
                             <constraint firstItem="nZu-aG-dFL" firstAttribute="top" secondItem="MJr-3S-ip6" secondAttribute="bottom" constant="60" id="dho-M3-Kft"/>
                             <constraint firstItem="bFp-ID-67n" firstAttribute="top" secondItem="rtT-Gc-q3g" secondAttribute="bottom" constant="60" id="lpp-FZ-G3k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gsp-n0-tak" secondAttribute="bottom" constant="72" id="qjO-Kg-HU4"/>
                             <constraint firstItem="jee-WS-Hfp" firstAttribute="leading" secondItem="rtT-Gc-q3g" secondAttribute="trailing" constant="60" id="vd7-UM-o2y"/>
                             <constraint firstItem="nZu-aG-dFL" firstAttribute="leading" secondItem="7gM-qk-g61" secondAttribute="trailing" constant="60" id="wHA-OP-e1c"/>
                             <constraint firstItem="MJr-3S-ip6" firstAttribute="top" secondItem="jee-WS-Hfp" secondAttribute="bottom" constant="60" id="x9e-Kt-2yu"/>
@@ -147,6 +162,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="winnerLabel" destination="BTj-Mr-klY" id="LeS-jN-vWO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
