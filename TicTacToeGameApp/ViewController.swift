@@ -83,8 +83,7 @@ class ViewController: UIViewController {
         activeGame = false
         print("We have a winner \(gameState[combination[0]])")
         
-        winnerLabel.isHidden = false
-        playAgainButton.isHidden = false
+
         
         if gameState[combination[0]] == 1 {
           
@@ -96,11 +95,11 @@ class ViewController: UIViewController {
 
         }
         
-        UIView.animate(withDuration: 1) {
-          self.winnerLabel.center = CGPoint(x: self.winnerLabel.center.x, y: self.winnerLabel.center.y + 500)
-          
-          self.playAgainButton.center = CGPoint(x: self.playAgainButton.center.x, y: self.playAgainButton.center.y - 500)
-        }
+        
+        
+        //UI
+        
+slideInButtonsUI()
 
       }
       
@@ -114,8 +113,64 @@ class ViewController: UIViewController {
   
   
   @IBAction func playAgainButtonPressed(_ sender: UIButton) {
+    
+    activeGame = true
+    
+    
+    // 1 noughts, 2 is crosses
+    activePlayer = 1
+    
+    gameState = [0,0,0,0,0,0,0,0,0] // 0 -none, 1 - nought, 2 - cross
+    
+    
+    for i in 1...9{
+      
+      if let button = view.viewWithTag(i) as? UIButton{
+        
+        button.setImage(nil, for: .normal)
+        
+      }
+      
+      slideOutButtonsUI()
+      
+    }
+
   }
   
   
 }
 
+
+
+extension ViewController{
+  
+  func slideInButtonsUI(){
+    winnerLabel.isHidden = false
+    playAgainButton.isHidden = false
+    
+    
+    UIView.animate(withDuration: 1) {
+      self.winnerLabel.center = CGPoint(x: self.winnerLabel.center.x, y: self.winnerLabel.center.y + 500)
+      
+      self.playAgainButton.center = CGPoint(x: self.playAgainButton.center.x, y: self.playAgainButton.center.y - 500)
+    }
+    
+  }
+  
+  
+  func slideOutButtonsUI(){
+    
+    winnerLabel.isHidden = true
+    playAgainButton.isHidden = true
+    
+    
+    UIView.animate(withDuration: 1) {
+      self.winnerLabel.center = CGPoint(x: self.winnerLabel.center.x, y: self.winnerLabel.center.y - 500)
+      
+      self.playAgainButton.center = CGPoint(x: self.playAgainButton.center.x, y: self.playAgainButton.center.y + 500)
+    }
+    
+  }
+  
+  
+}
