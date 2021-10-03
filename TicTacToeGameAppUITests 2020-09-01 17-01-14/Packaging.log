@@ -1,0 +1,166 @@
+2020-09-02 00:01:10 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fde70951a90; archive(resolved)='<IDEArchive: 0x7fde891dc380>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fde70951a90; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fde709363b0; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde813d7070; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde8a6aa470; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde889a1b20; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde89509200; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde889a4960; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde8896bd60; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde889ce750; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fde88e95ad0; teamID='QLJ84Q3ZSY', teamName='Anton Veldanov', teamType='Individual', username='anton.veldanov@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fde89963d30; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='(null)'>
+	<IDEDistributionContext: 0x7fde89577520; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fde6feeabe0>', team='(null)'>
+	<IDEDistributionContext: 0x7fde889a6c50; archive = '<IDEArchive: 0x7fde891dc380>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fde70951a90>
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCopyItemStep
+2020-09-02 00:01:10 +0000  Running /usr/bin/ditto '-V' '/Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/Products/Applications/TicTacToeGameApp.app' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app'
+2020-09-02 00:01:10 +0000  >>> Copying /Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/Products/Applications/TicTacToeGameApp.app 
+2020-09-02 00:01:10 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-09-02 00:01:10 +0000  5173 bytes for ./_CodeSignature/CodeResources
+2020-09-02 00:01:10 +0000  copying file ./TicTacToeGameApp ... 
+2020-09-02 00:01:10 +0000  256720 bytes for ./TicTacToeGameApp
+2020-09-02 00:01:10 +0000  copying file ./AppIcon60x60@2x.png ... 
+2020-09-02 00:01:10 +0000  2147 bytes for ./AppIcon60x60@2x.png
+2020-09-02 00:01:10 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2020-09-02 00:01:10 +0000  1057 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2020-09-02 00:01:10 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-09-02 00:01:10 +0000  26172 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2020-09-02 00:01:10 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-09-02 00:01:10 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-09-02 00:01:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-09-02 00:01:10 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-09-02 00:01:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-09-02 00:01:10 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-09-02 00:01:10 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-09-02 00:01:10 +0000  copying file ./Assets.car ... 
+2020-09-02 00:01:10 +0000  67896 bytes for ./Assets.car
+2020-09-02 00:01:10 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2020-09-02 00:01:10 +0000  2973 bytes for ./AppIcon76x76@2x~ipad.png
+2020-09-02 00:01:10 +0000  copying file ./cross.png ... 
+2020-09-02 00:01:10 +0000  3689 bytes for ./cross.png
+2020-09-02 00:01:10 +0000  copying file ./board.png ... 
+2020-09-02 00:01:10 +0000  5102 bytes for ./board.png
+2020-09-02 00:01:10 +0000  copying file ./embedded.mobileprovision ... 
+2020-09-02 00:01:10 +0000  11351 bytes for ./embedded.mobileprovision
+2020-09-02 00:01:10 +0000  copying file ./Info.plist ... 
+2020-09-02 00:01:10 +0000  1627 bytes for ./Info.plist
+2020-09-02 00:01:10 +0000  copying file ./PkgInfo ... 
+2020-09-02 00:01:10 +0000  8 bytes for ./PkgInfo
+2020-09-02 00:01:10 +0000  copying file ./nought.png ... 
+2020-09-02 00:01:10 +0000  4088 bytes for ./nought.png
+2020-09-02 00:01:10 +0000  /usr/bin/ditto exited with 0
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionInfoPlistStep
+2020-09-02 00:01:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionItemRemovalStep
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-09-02 00:01:10 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-09-02 00:01:10 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-09-02 00:01:10 +0000  Running /Users/aveldanov/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app/TicTacToeGameApp' '-l' '-o' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app/TicTacToeGameApp'
+2020-09-02 00:01:10 +0000  /Users/aveldanov/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-09-02 00:01:10 +0000  Running /usr/bin/ditto '-V' '/Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/BCSymbolMaps/E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/BCSymbolMaps/E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap'
+2020-09-02 00:01:10 +0000  >>> Copying /Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/BCSymbolMaps/E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap 
+2020-09-02 00:01:10 +0000  copying file ./E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap ... 
+2020-09-02 00:01:10 +0000  17829 bytes for ./E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap
+2020-09-02 00:01:10 +0000  /usr/bin/ditto exited with 0
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionSymbolsStep
+2020-09-02 00:01:10 +0000  Excluding symbols for TicTacToeGameApp.app
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionAppThinningStep
+2020-09-02 00:01:10 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionArchThinningStep
+2020-09-02 00:01:10 +0000  Running /Users/aveldanov/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app/TicTacToeGameApp' '-verify_arch' 'arm64e'
+2020-09-02 00:01:10 +0000  /Users/aveldanov/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-09-02 00:01:10 +0000  Skipping architecture thinning for item "TicTacToeGameApp" because arch "arm64e" wasn't found
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionODRStep
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-09-02 00:01:10 +0000  Running /usr/bin/xattr '-crs' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app'
+2020-09-02 00:01:10 +0000  /usr/bin/xattr exited with 0
+2020-09-02 00:01:10 +0000  Processing step: IDEDistributionCodesignStep
+2020-09-02 00:01:10 +0000  Entitlements for <IDEDistributionItem: 0x7fde89513a70; bundleID='com.aveldanov.TicTacToeGameApp', path='<DVTFilePath:0x7fde899db090:'/Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/Products/Applications/TicTacToeGameApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fde891e6650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fde8987d5c0; name='Apple Development: Anton Veldanov (X5F64R5F33)', hash='DB4562AAD9FADD9279AF58D0BC36768DB71DE8F5', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fde8138c060>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-07 02:22:59 +0000''>', entitlements='{
+    "application-identifier" = "QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp";
+    "com.apple.developer.team-identifier" = QLJ84Q3ZSY;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp"
+    );
+}', teamID='QLJ84Q3ZSY', identifier='com.aveldanov.TicTacToeGameApp', executablePath='<DVTFilePath:0x7fde8959d860:'/Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/Products/Applications/TicTacToeGameApp.app/TicTacToeGameApp'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = QLJ84Q3ZSY;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp"
+    );
+}
+2020-09-02 00:01:10 +0000  Writing entitlements for <IDEDistributionItem: 0x7fde89513a70; bundleID='com.aveldanov.TicTacToeGameApp', path='<DVTFilePath:0x7fde899db090:'/Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/Products/Applications/TicTacToeGameApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fde891e6650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fde889d2280; name='Apple Development: Anton Veldanov (X5F64R5F33)', hash='DB4562AAD9FADD9279AF58D0BC36768DB71DE8F5', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fde85506920>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-05-07 02:22:59 +0000''>', entitlements='{
+    "application-identifier" = "QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp";
+    "com.apple.developer.team-identifier" = QLJ84Q3ZSY;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp"
+    );
+}', teamID='QLJ84Q3ZSY', identifier='com.aveldanov.TicTacToeGameApp', executablePath='<DVTFilePath:0x7fde8959d860:'/Users/aveldanov/Library/Developer/Xcode/Archives/2020-09-01/TicTacToeGameAppUITests 9-1-20, 5.00 PM.xcarchive/Products/Applications/TicTacToeGameApp.app/TicTacToeGameApp'>', hardenedRuntime='0'>'> to: /var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/entitlements~~~xBravm
+2020-09-02 00:01:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E50112E57791805DB2753CC15958426DDC0A91FD' '--entitlements' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/entitlements~~~xBravm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app'
+2020-09-02 00:01:11 +0000  /var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app: signed app bundle with Mach-O thin (arm64) [com.aveldanov.TicTacToeGameApp]
+2020-09-02 00:01:11 +0000  /usr/bin/codesign exited with 0
+2020-09-02 00:01:11 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-09-02 00:01:11 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-09-02 00:01:11 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-09-02 00:01:11 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root' '/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Packages/TicTacToeGameApp.ipa'
+2020-09-02 00:01:11 +0000  >>> Copying /var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root 
+2020-09-02 00:01:11 +0000  copying file ./BCSymbolMaps/E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap ... 
+2020-09-02 00:01:11 +0000  17829 bytes for ./BCSymbolMaps/E6CA2B3E-A72C-3EA5-B942-9D177B06386D.bcsymbolmap
+2020-09-02 00:01:11 +0000  copying file ./Payload/TicTacToeGameApp.app/_CodeSignature/CodeResources ... 
+2020-09-02 00:01:11 +0000  5173 bytes for ./Payload/TicTacToeGameApp.app/_CodeSignature/CodeResources
+copying file ./Payload/TicTacToeGameApp.app/TicTacToeGameApp ... 
+2020-09-02 00:01:11 +0000  198256 bytes for ./Payload/TicTacToeGameApp.app/TicTacToeGameApp
+copying file ./Payload/TicTacToeGameApp.app/AppIcon60x60@2x.png ... 
+2020-09-02 00:01:11 +0000  2147 bytes for ./Payload/TicTacToeGameApp.app/AppIcon60x60@2x.png
+2020-09-02 00:01:11 +0000  copying file ./Payload/TicTacToeGameApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+1057 bytes for ./Payload/TicTacToeGameApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/TicTacToeGameApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-09-02 00:01:11 +0000  26172 bytes for ./Payload/TicTacToeGameApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/TicTacToeGameApp.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-09-02 00:01:11 +0000  258 bytes for ./Payload/TicTacToeGameApp.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/TicTacToeGameApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-09-02 00:01:11 +0000  1197 bytes for ./Payload/TicTacToeGameApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/TicTacToeGameApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-09-02 00:01:11 +0000  896 bytes for ./Payload/TicTacToeGameApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/TicTacToeGameApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/TicTacToeGameApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-09-02 00:01:11 +0000  copying file ./Payload/TicTacToeGameApp.app/Assets.car ... 
+2020-09-02 00:01:11 +0000  67896 bytes for ./Payload/TicTacToeGameApp.app/Assets.car
+2020-09-02 00:01:11 +0000  copying file ./Payload/TicTacToeGameApp.app/AppIcon76x76@2x~ipad.png ... 
+2973 bytes for ./Payload/TicTacToeGameApp.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/TicTacToeGameApp.app/cross.png ... 
+2020-09-02 00:01:11 +0000  3689 bytes for ./Payload/TicTacToeGameApp.app/cross.png
+copying file ./Payload/TicTacToeGameApp.app/board.png ... 
+2020-09-02 00:01:11 +0000  5102 bytes for ./Payload/TicTacToeGameApp.app/board.png
+copying file ./Payload/TicTacToeGameApp.app/embedded.mobileprovision ... 
+2020-09-02 00:01:11 +0000  9310 bytes for ./Payload/TicTacToeGameApp.app/embedded.mobileprovision
+copying file ./Payload/TicTacToeGameApp.app/Info.plist ... 
+2020-09-02 00:01:11 +0000  1627 bytes for ./Payload/TicTacToeGameApp.app/Info.plist
+copying file ./Payload/TicTacToeGameApp.app/PkgInfo ... 
+8 bytes for ./Payload/TicTacToeGameApp.app/PkgInfo
+copying file ./Payload/TicTacToeGameApp.app/nought.png ... 
+2020-09-02 00:01:11 +0000  4088 bytes for ./Payload/TicTacToeGameApp.app/nought.png
+2020-09-02 00:01:11 +0000  /usr/bin/ditto exited with 0
+2020-09-02 00:01:11 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-09-02 00:01:11 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-09-02 00:01:11 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-09-02 00:01:11 +0000  IDEDistributionItem init <DVTFilePath:0x7fde899cd460:'/var/folders/y0/kft_n6ds72s3r6fvr2b5jrwxr29v9_/T/XcodeDistPipeline.~~~kFLOgv/Root/Payload/TicTacToeGameApp.app'>
+2020-09-02 00:01:11 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-09-02 00:01:11 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

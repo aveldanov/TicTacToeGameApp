@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TicTacToeGameApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E50112E57791805DB2753CC15958426DDC0A91FD</string>
+				<key>dateExpires</key>
+				<string>5/6/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>QLJ84Q3ZSY</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>QLJ84Q3ZSY.com.aveldanov.TicTacToeGameApp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>TicTacToeGameApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>d83dbad5-cc56-4c51-9e4d-cc6575424184</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.aveldanov.TicTacToeGameApp</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>QLJ84Q3ZSY</string>
+				<key>name</key>
+				<string>Anton Veldanov</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

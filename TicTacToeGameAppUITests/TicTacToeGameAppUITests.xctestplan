@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "1A4700FE-CC16-44B5-A1DF-6FBD70527087",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TicTacToeGameApp.xcodeproj",
+      "identifier" : "21375277245A2E20004BBAC4",
+      "name" : "TicTacToeGameApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "TicTacToeGameAppUITests\/testExample2()",
+        "TicTacToeGameAppUITests\/testExample3()"
+      ],
+      "target" : {
+        "containerPath" : "container:TicTacToeGameApp.xcodeproj",
+        "identifier" : "21E6DD8F24FEE9E8008F2011",
+        "name" : "TicTacToeGameAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
